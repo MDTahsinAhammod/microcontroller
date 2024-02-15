@@ -36,10 +36,14 @@ nav{
  justify-content: left;
  margin-top: 32px;
 }
-
-.card-single{
+.card-colum{
  width: 430px;
+ margin-right: 20px;
+}
+.card-single{
+ width: 100%;
  padding: 16px;
+ margin-bottom: 25px;
  background: #0D0D18;
  border-radius: 12px;
 }
@@ -99,4 +103,58 @@ button.bg-btn{
  margin-top: 10px;
  background: #52B6BC;
  border: none;
+}
+
+.mli{
+ margin-left: 14px;
+}
+.card-single input[type="text"] {
+  background:#000;
+  border: none;
+  width:47.7%;
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.card-single input[type="checkbox"]{
+ 
+}
+
+button.con-btn{
+ width: 240px;
+ margin-left: 16px;
+ background:#52B6BC;
+ border:none;
+}
+
+button.con-btn-100{
+ margin-top: 15px;
+ width:100%;
+ background:#52B6BC;
+ border:none;
+}
+
+hr{
+ margin: 24px 0;
+}
+
+.row{
+ justify-content: left;
+ margin-top: 24px;
+ display:flex;
+ text-align: center;
+}
+
+.col{
+ width:33%;
+}
+
+.row .col:nth-child(2) h4{
+ text-align: center;
+}
+
+
+.row .col:nth-child(3) h4{
+ text-align: right;
 }
